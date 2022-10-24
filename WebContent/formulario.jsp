@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <form action="<%=request.getContextPath()%>/Actividad02" method="POST">
+    <form action="<%=request.getContextPath()%>/actividad02" method="POST">
         <input type="text" name="nombre" placeholder="Introduce tu nombre" value="">
         <input type="submit" name="boton" value="Enviar">
     </form>
